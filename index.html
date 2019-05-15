@@ -53,7 +53,6 @@
 	<header>
 		<h2 class="text-center text-white">YO SOY </h1>
 		<h2 class="text-center font-weight-bold text-white">DARTH VADER</h1>
-
 	</header>
 	<!-- acá termina la sección 1 de foto -->
 
@@ -64,9 +63,9 @@
 			<div class="row mb-5">
 				<div class="col-md-12 mx-5 my-5 text-center">
 					<div class="alert alert-dark">
-	 					 <h2>QUE LA FUERZA TE ACOMPAÑE</h2>
+	 					 <h2>QUE LA FUERZA TE ACOMPAÑE ...</h2>
 					</div>
-						<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante <br>nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
+						<h4>Yo soy tu padre</h4>
 					</div>
 					<div class="col-md-6">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
@@ -84,21 +83,106 @@
 		<div class="row text-center">
 			
 				<div class="display-5 col-md-3">
-					<i class="fas fa-jedi fa-9x m-4"></i><h3>Jedi</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<i class="fas fa-jedi fa-9x m-4" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="era un buen niño"></i><h3>Jedi</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#jedi"> Ver Más ...</a>
 				</div>
 				<div class="display-5 col-md-3">
-					<i class="fab fa-jedi-order fa-9x m-4"></i><h3>Orden Jedi</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<i class="fab fa-jedi-order fa-9x m-4" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="una joven promesa"></i><h3>Orden Jedi</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#Orden_Jedi"> Ver Más ...</a>
 				</div>
 				<div class="display-5 col-md-3">
-					<i class="fas fa-robot fa-9x m-4"></i><h3>Orden Jedi</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<i class="fas fa-robot fa-9x m-4" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="lo atrajo el lado oscuro"></i><h3>Darth Vader</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#Darth_Vader"> Ver Más ...</a>
 				</div>
 				<div class="display-5 col-md-3">
-					<i class="fab fa-galactic-republic fa-9x m-4"></i><h3>República</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<i class="fab fa-galactic-republic fa-9x m-4" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Darth Vader"></i><h3>República</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus ut.</p>
+					<a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#republica"> Ver Más ...</a>
 				</div>
 
 			
 		</div>		 
 
+<!-- modal -->
+		<div class="modal fade" id="jedi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Joven Anakin</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body text-center">
+		        <img src="assets/img/foto1.jpg" alt=" joven Anakin">
+		        <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nostrum vitae, quas impedit, aspernatur quia dicta unde officiis quisquam veniam mollitia sit atque iure quibusdam rem? Officia omnis, laudantium consectetur.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="Orden_Jedi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Orden Jedi</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body text-center">
+		        <img src="assets/img/foto2.png" alt=" Orden Jedi">
+		        <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nostrum vitae, quas impedit, aspernatur quia dicta unde officiis quisquam veniam mollitia sit atque iure quibusdam rem? Officia omnis, laudantium consectetur.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="Darth_Vader" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Creación Darth Vader</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body text-center">
+		        <img src="assets/img/foto3.jpg" alt="Darth Vader">
+		        <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nostrum vitae, quas impedit, aspernatur quia dicta unde officiis quisquam veniam mollitia sit atque iure quibusdam rem? Officia omnis, laudantium consectetur.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="republica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Joven Anakin</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body text-center">
+		        <img src="assets/img/foto4.jpg" alt=" Darth Vader">
+		        <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nostrum vitae, quas impedit, aspernatur quia dicta unde officiis quisquam veniam mollitia sit atque iure quibusdam rem? Officia omnis, laudantium consectetur.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+<!--  cierre modal -->
 				
 	</section>
 <!-- acá termina sección de experiencia-->
@@ -116,7 +200,7 @@
 						  <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet & coffee">
 						  <div class="card-body">
 						    <h5 class="card-title">Meet&Coffe</h5>
-						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan.</p>
 						  </div>
 						</div>
 					</div>
@@ -136,7 +220,7 @@
 						  <img src="assets/img/suricata.png" class="card-img-top" alt="suricata">
 						  <div class="card-body">
 						    <h5 class="card-title">Suricata</h5>
-						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec .</p>
 						  </div>
 						</div>
 					</div>
@@ -156,7 +240,7 @@
 						  <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida">
 						  <div class="card-body">
 						    <h5 class="card-title">Ricomida</h5>
-						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan .</p>
 						  </div>
 						</div>
 					</div>
@@ -166,7 +250,7 @@
 						  <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">DMark</h5>
-						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec .</p>
 						  </div>
 						</div>
 					</div>
@@ -213,6 +297,8 @@
 
     <!--Bootstrap JS 4.2.1-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+
 
     <!--Mi script-->
     <script src="assets/js/javascript.js"></script>
